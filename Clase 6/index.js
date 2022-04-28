@@ -147,7 +147,7 @@ for (const producto of productos) {
 }
  */
 
-class Producto {
+/* class Producto {
   constructor(nombre, precio) {
       this.nombre  = nombre.toUpperCase();
       this.precio  = parseFloat(precio);
@@ -168,10 +168,30 @@ productos.push(new Producto("arroz", "125"));
 productos.push(new Producto("fideo", "70"));
 productos.push(new Producto("pan", "50"));
 
-console.log(productos[0].vendido);
+console.log(productos[0].vendido); */
 
 /* productos[0].vender()
 console.log(productos[0].vendido); */
-for(const producto of productos){
+/* for(const producto of productos){
   producto.mostrarPrecioIva();
-}
+} */
+
+/* let a = "hola";
+let b = a;
+b = "chao";
+console.log(a);
+
+
+|  "hola"  |   |  "chao"   |
+      a             b */
+
+/* let a = {nombre: "andres", edad: 25};
+let b = a;
+
+b.nombre = "luis";
+
+console.log(a);
+
+
+| {nombre: "luis", edad: 25} |
+                a  b      */             
