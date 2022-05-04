@@ -35,9 +35,8 @@ let saludo = document.getElementById("saludo");
 
 if(respuesta === "si"){
   saludo.className = "color";
+} */
 
-}
- */
 
 /* 
   1. crear la etiqueta
@@ -105,7 +104,7 @@ console.log(p);
 let parrafos = document.querySelectorAll(".saludo");
 console.log(parrafos); */
 
-let productos = [
+/* let productos = [
   {disponible: true},
   {disponible: false},
   {}
@@ -123,4 +122,8 @@ let productosNoDisponibles = [
 
 if(respuesta === "dispo"){
   for
-}
+} */
+
+let htmlCollection = document.getElementsByTagName("body")
+let body = htmlCollection[0];
+body.className = "color"
