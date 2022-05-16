@@ -45,7 +45,9 @@ let usuario;
 let usuarioStorage = sessionStorage.getItem("usuario");
 
 if(usuarioStorage){
-  console.log("entramos cuyando hay usuario");
+  let contenedor = document.createElement("div");
+  contenedor.innerHTML = `${sessionStorage.getItem("usuario")}`;
+  document.body.append(contenedor);
 }else{
   usuario = prompt("ingrese su nombre");
   sessionStorage.setItem("usuario", usuario);
